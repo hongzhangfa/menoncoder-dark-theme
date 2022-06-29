@@ -1,0 +1,35 @@
+{
+    "name": "menon-dark-theme",
+    "displayName": "Menon Dark",
+    "description": "menon vs-code theme, it was my first attempt!",
+    "version": "0.0.1",
+    "publisher": "MenonCoder",
+    "icon": "avatar-square.webp",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hongzhangfa/menoncoder-dark-theme"
+    },
+    "keywords": [
+        "theme",
+        "dark theme",
+        "menon coder",
+        "menoncoder",
+        "menon coder dark",
+        "menon coder dark theme"
+    ],
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Menon Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Menon Dark-color-theme.json"
+            }
+        ]
+    }
+}
